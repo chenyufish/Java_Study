@@ -1,0 +1,11 @@
+
+z	java:S116"YRename this field "API_URL_PREFIX" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß…ˆÕúÿÿÿÿ8—ñú¥1
+{	java:S116"_Rename this field "API_FRONT_URL_PREFIX" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚¿Ç‹8˜ñú¥1
+|	java:S116"`Rename this field "API_AUTHOR_URL_PREFIX" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨ƒ¥§8™ñú¥1
+€	java:S116"_Rename this field "API_ADMIN_URL_PREFIX" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µÁİøøÿÿÿÿ8™ñú¥1
+{	java:S116!"ZRename this field "HOME_URL_PREFIX" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚‰éıÿÿÿÿ8™ñú¥1
+v	java:S116&"ZRename this field "BOOK_URL_PREFIX" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Àíµ8™ñú¥1
+{	java:S116+"ZRename this field "USER_URL_PREFIX" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“Àêüûÿÿÿÿ8™ñú¥1
+…	java:S1160"dRename this field "API_FRONT_HOME_URL_PREFIX" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•ş˜Æÿÿÿÿÿ8™ñú¥1
+€	java:S1165"dRename this field "API_FRONT_BOOK_URL_PREFIX" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§ÈëÆ8™ñú¥1
+…	java:S116:"dRename this field "API_FRONT_USER_URL_PREFIX" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†€‡Ëúÿÿÿÿ8™ñú¥1
