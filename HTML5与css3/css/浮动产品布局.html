@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>浮动产品布局</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        li{
+            list-style: none;
+        }
+        .product {
+            margin: 50px auto;
+            width: 1226px;
+            height: 682px;
+            background: pink;
+        }
+        .left{
+            width: 234px;
+            height: 628px;
+            background: skyblue;
+            float: left;
+        }
+        .right{
+            width: 928px;
+            height: 628px;
+            background: orange;
+            float:right;
+        }
+        .right li{
+            width: 200px;
+            height: 300px;
+            background-color: greenyellow;
+            float: left;
+            margin-right: 14px;
+            margin-bottom:14px ;
+        }
+
+        .right li :nth-child(4){
+            margin-right:0;
+        }
+        .clearfix::before,
+        .clearfix::after {
+            content: "";
+            display: table;
+        }
+        .clearfix::after{
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="product">
+        <div class="left"></div>
+        <div class="right">
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
