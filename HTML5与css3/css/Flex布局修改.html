@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>布局</title>
+    <style>
+        .box{
+            display: flex;
+            /* flex-direction: column; */
+            /* width: 400px; */
+            height: 300px;
+            background-color: pink;
+            /* justify-content: center;
+            align-items: center;
+             */ 
+             border: 1px solid black;
+        }
+        .box div{
+            /* width: 100; */
+            background-color: greenyellow;
+        }
+        .box div :nth-child(1){
+            width: 200px
+        }
+        .box div :nth-child(2){
+            flex: 1;
+        }
+        .box div :nth-child(3){
+            flex: 2;
+        }
+        /* img{
+            width: 32px;
+            height: 32px;
+        } */
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <!-- <img src="../图片/2021040310044168.jpeg" alt=""> -->
+        <!-- <span>美女</span> -->
+    </div>
+    
+</body>
+</html>
