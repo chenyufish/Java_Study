@@ -1,0 +1,178 @@
+.wrpper{
+    margin: 0 auto;
+    width: 1200px;
+}
+body{
+    background-color:#f3f5f7;
+
+}
+.head{
+    /* width: 1920px; */
+    height: 100px;
+    background-color: #ffffff;
+}
+.head .wrpper{
+    display: flex;
+    padding-top: 29px;
+}
+.logo a {
+    display: block;
+    width: 195px;
+    height: 41px;
+    background-image: url(../../study/images/logo.png);
+    /* 隐藏文字 */
+    font-size: 0;
+}
+.gps {
+    margin-left: 102px;
+}
+.gps ul {
+    display: flex;
+}
+.gps li{
+    margin-right: 24px;
+}
+.gps li a{
+    display: block;
+    padding: 6 8px;
+    line-height: 27px;
+    font-size: 19px;
+}
+
+.gps li .act,
+.gps li a:hover{
+    border-bottom: 2px solid #00a4ff ;
+}
+.search {
+    display: flex;
+        width: 412px;
+        height: 40px;
+        background-color: #f3f5f7;
+        border-radius: 20px;
+        margin-left: 64px;
+        padding:10px 19px 12px;
+}
+.search input {
+    /* display: block; */
+    align-self: center;
+    flex: 1;
+    border: 0;
+    background-color: transparent;
+    /* 去掉焦点框 */
+    outline:none ;
+}
+.search input::placeholder{
+    font-size: 14px;
+    color: #999;
+}
+
+.search a{
+        /* 父级已经是felx布局了 */
+        /* display: block; */
+        align-self: center;
+        width: 16px;
+        height: 16px;
+        background-image: url(../../study/images/search.png);
+}
+
+.user{
+    margin-left: 32px;
+    margin-top: 4px; 
+}
+.user img{
+    margin-right: 7px;
+    vertical-align: middle;
+}
+.user span{
+    font-size: 16px;
+    color: #666;
+}
+.banner {
+    /* display: flex; */
+	height: 420px;
+    background-color: #0092cb;
+    /* background-image: url(../../study/images/right-hover.png); */
+}
+.banner .wrpper {
+    display: flex;
+    justify-content: space-between;
+    height: 420px;
+    background-image: url(../../study/uploads/banner.png);
+}
+.banner .left{
+    padding: 3px 20px;;
+    /* margin:0 358px 794px;; */
+    background-color: rgb(0,0,0,0.42);
+	width: 191px;
+	height: 420px;
+}
+.banner .right{
+    background-color: #209dd5;
+    border-radius: 10px;
+    margin-top: 60px;
+	width: 218px;
+	height: 305px;
+}
+.banner .right h3{
+    margin-left: 14px;
+	height: 48px;
+	font-size: 15px;
+    font-weight: 400;
+	line-height: 48px;
+	color: #ffffff; 
+}
+.banner .right .box{
+    /* margin-top: 9px; */
+	height: 257px;
+    padding: 14px;
+	background-color: #ffffff;
+	border-radius: 10px;
+}
+.banner .right dl{
+    margin-bottom: 12px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.banner .right dt{
+    margin-bottom: 8px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+
+}
+.banner .right dd{
+    margin-bottom: 8px;
+    font-size: 12px;
+    line-height: 16px;
+}
+.banner .right dd span{
+    color: #00a4ff;
+}
+.banner .right dd strong{
+    color: #7d7d7d;
+    font-weight: 400;
+}
+.banner .right a{
+    display: block;
+    height: 32px;
+    background-color: #00a4ff;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 15px;
+    font-size: 14px;
+    color: #fff;
+}
+.banner .left a{
+    /* 根据父级铺开 */
+	/* width: 64px; */
+    display: block;
+	height: 46px;
+    line-height :46px; ;
+    color: #fff;
+    font-size: 16px;
+    background: url(../../study/images/right.png ) no-repeat right center;
+    /* background-image: url(../../study/images/right-hover.png); */
+}
+.banner .left a:hover{
+    color: #00a4ff;
+    background: url(../../study/images/right-hover.png) no-repeat right center;
+}
