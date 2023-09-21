@@ -176,3 +176,39 @@ body{
     color: #00a4ff;
     background: url(../../study/images/right-hover.png) no-repeat right center;
 }
+.recommd {
+    display: flex;
+    margin-top: 11px;
+    padding: 0 20px;
+	/* width: 1200px; */
+	height: 60px;
+	background-color: #ffffff;
+	box-shadow: 0px 1px 2px 0px 
+		rgba(211, 211, 211, 0.5);
+        line-height: 60px;
+}
+
+.recommd h3{
+    font-style: 18px;
+    color: #00a4ff;
+    font-weight: 400;
+
+}
+.recommd ul{
+    flex: 1;
+    display: flex;
+}
+.recommd ul li a{
+    font-size: 18px;
+    padding: 0 24px;
+    border-right: 1px solid #e0e0e0;
+}
+.recommd .modify{
+        height: 23px;
+        font-size: 16px;
+        font-weight: normal;
+        color: #00a4ff;
+}
+.recommd ul li:last-child a{
+border-right: 0;
+}
