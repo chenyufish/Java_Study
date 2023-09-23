@@ -212,3 +212,63 @@ body{
 .recommd ul li:last-child a{
 border-right: 0;
 }
+
+.course{
+    margin-top: 15px;
+
+}
+.hd{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    line-height: 60px;
+}
+.hd h3{
+    font-size: 21px;
+    font-weight: 400;
+}
+.hd .more{
+    padding-right: 20px;
+    background: url(../../study/images/more.png) no-repeat right center;
+    font-size: 14px;
+    color: #999;
+}
+.bd ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.bd li{
+    margin-bottom: 14px;
+    width: 228px;
+    height: 271px;
+    background-color: pink;
+}
+.bd li .pic{
+    height: 156px;
+}
+.bd li .text{
+    padding: 20px;
+    height: 115px;
+    background-color: #fff;
+}
+.bd li .text h4{
+    /* background-color: #fff; */
+    margin-bottom: 13px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+}
+.bd li .text p{
+    font-size: 14px;
+    line-height: 20px;
+    color: #999;
+}
+.bd li .text p i{
+    font-size: normal;
+}
+
+.bd li .text p span{
+    color: #fa6400;
+}
